@@ -1,7 +1,17 @@
 from django.shortcuts import render
+from datetime import datetime
 
-
-from django.http import HttpResponse
 # Create your views here.
+
+
 def index(request):
-    return HttpResponse('<h1>Responded</h1>')
+    current_year = datetime.now().year
+    context = {
+        'current_year': current_year
+    }
+    return render(request, "pages/index.html", context)
+
+
+def about(request):
+    return render(request, "pages/about.html")
+
