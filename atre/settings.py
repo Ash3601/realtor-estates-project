@@ -143,6 +143,6 @@ MESSAGE_TAGS = {messages.ERROR: "danger", 50: "critical"}
 # ? EMail
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_PORT = 587
-EMAIL_HOST_USER = "abbasiashin786@gmail.com"
-EMAIL_HOST_PASSWORD = "Google1234*#"
+EMAIL_HOST_USER = "YOUR MAIL ID"
+EMAIL_HOST_PASSWORD = "PASSWORD"
 EMAIL_USE_TLS = True
